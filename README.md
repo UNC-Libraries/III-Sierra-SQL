@@ -1,2 +1,2 @@
 # III-Sierra-SQL
-Sierra DNA SQL queries used for reporting and internal projects
+See wiki page: https://github.com/UNC-Libraries/III-Sierra-SQL/wiki
