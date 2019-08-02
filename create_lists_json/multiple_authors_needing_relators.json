@@ -1,0 +1,118 @@
+{
+  "queries": [
+    {
+      "target": {
+        "record": {
+          "type": "bib"
+        },
+        "field": {
+          "marcTag": "245",
+          "subfields": "c"
+        }
+      },
+      "expr": {
+        "op": "not_equal",
+        "operands": [
+          "",
+          ""
+        ]
+      }
+    },
+    "and",
+    {
+      "target": {
+        "record": {
+          "type": "bib"
+        },
+        "field": {
+          "marcTag": "245",
+          "subfields": "c"
+        }
+      },
+      "expr": {
+        "op": "all_fields_not_have",
+        "operands": [
+          ";",
+          ""
+        ]
+      }
+    },
+    "and",
+    {
+      "target": {
+        "record": {
+          "type": "bib"
+        },
+        "field": {
+          "marcTag": "245",
+          "subfields": "c"
+        }
+      },
+      "expr": {
+        "op": "all_fields_not_have",
+        "operands": [
+          "edit",
+          ""
+        ]
+      }
+    },
+    "and",
+    {
+      "target": {
+        "record": {
+          "type": "bib"
+        },
+        "field": {
+          "marcTag": "245",
+          "subfields": "c"
+        }
+      },
+      "expr": {
+        "op": "has",
+        "operands": [
+          " and ",
+          ""
+        ]
+      }
+    },
+    "and",
+    {
+      "target": {
+        "record": {
+          "type": "bib"
+        },
+        "field": {
+          "marcTag": "245",
+          "subfields": "c"
+        }
+      },
+      "expr": {
+        "op": "all_fields_not_have",
+        "operands": [
+          "trans",
+          ""
+        ]
+      }
+    },
+    "and",
+    {
+      "target": {
+        "record": {
+          "type": "bib"
+        },
+        "field": {
+          "marcTag": "700",
+          "ind1": "?",
+          "ind2": " "
+        }
+      },
+      "expr": {
+        "op": "at_least_one_field_not_have",
+        "operands": [
+          "|eauthor",
+          ""
+        ]
+      }
+    }
+  ]
+}
